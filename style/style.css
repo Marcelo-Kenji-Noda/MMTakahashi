@@ -1,0 +1,311 @@
+/*Formatação Padrão*/
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, p{
+  font-family: "Impact", "Bebas Neue Regular", "Arial", sans-serif;
+  color: #ff3939;
+  padding: 0;
+  margin: 0.3em;
+}
+
+p {
+  font-size: 1em;
+}
+
+h1{
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.7em;
+}
+h3 {
+  font-size: 1.4em;
+}
+
+.clearfix:after{
+  content: ' ';
+  display: block;
+  clear: both;
+}
+
+.spanHidden{
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  display: inline-block;
+}
+
+.hidden{
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  display: block;
+}
+
+
+/*Header*/
+
+.header{
+  background: snow;
+  background-color: rgb(248, 98, 98); 
+  width: 100%;
+}
+
+.header__logo{
+  text-align: center;
+  margin: 0px;
+  padding: 0.31em;
+  display: block;
+}
+
+.js .header__logo{
+  float: left;
+}
+
+.header__logo{
+  width: 10em;
+}
+
+.js .header__btnMenu{
+  float: right;
+  margin: 1.5em;
+  background: transparent;
+  border: none;
+  font-size: 0.875em;
+}
+
+/*Nav*/
+
+.header__nav{
+  clear:left;
+}
+
+.header__nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav li{
+  list-style-type: none;
+  background: #276296;
+  text-align: center;    
+  border-bottom: 1px dotted rgba(255,255,255,0.2);
+}
+.header__nav a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FEE2C0;
+  font-size: 0.75em;
+  font-weight: 600;
+  display: block;
+  padding: 1.56em 0;
+  transition: 0.3s ease;
+}
+.header__nav a:hover{
+  color: #E16D71;
+}
+
+/*Página principal*/
+
+.apresentacao{
+  text-align: center;
+  padding: 0px;
+}
+
+.apresentacao__image{
+  width:auto;
+  height:25em;
+  background-image: url(../Images/background-image-mountain2.jpg);
+  background-size:cover;
+  background-attachment:scroll;
+  background-repeat:no-repeat;
+  align-content: center;
+}
+
+.apresentacao__image h1{
+  padding: 2em 0 0 0;
+}
+
+/*Quem somos*/
+.sobrenos img{
+  padding-right: 1em;
+  height: 4.5em;
+  float: left;
+}
+
+.quemsomos {
+  padding: 1em;
+}
+
+.quemsomos article{
+  display: inline-block;
+  padding-top: 0.125em;
+  text-align: justify;
+}
+.quemsomos img{
+  padding-right: 1em;
+  height: 4.5em;
+  float: left;
+}
+
+.contato{
+  text-align: center;
+  padding: 1em;
+}
+
+.nome{
+  display: inline-block;
+}
+
+.maps{
+  width: 100%;
+  height: 20em;
+}
+
+.contato label, input{
+  display: block;
+}
+
+.divemail{
+  text-align: left;
+}
+
+#nome, #email, #mensagem{
+  width: 100%;
+}
+
+#mensagem{
+  height: 5em;
+}
+
+.mailrow-2, .mailrow-1{
+  padding-bottom: 1em;
+}
+
+.mailbutton{
+  background: #276296;
+  color: #FEE2C0;
+  border-radius: 0.625em;
+  padding: 1em 0 1em 0;
+  width: 100%; 
+  transition: 0.3s ease;
+}
+
+.mailbutton:hover{
+  color: #E16D71;
+  background: #276296de;    
+  cursor: pointer;
+}
+
+footer{
+  background: #84bcec;
+  text-align: center;
+}
+
+footer li{
+  display: inline-block;
+  padding-right: 0.1em;
+  list-style-type: none;
+}
+
+.footer-ul-icons{
+  font-size: 1.25em;
+  display: inline-block;
+  list-style: none;
+}
+
+.footer-copyright{
+  font-size: 0.70em;
+  display: inline-block;
+}
+
+@media screen and (min-width: 48.75em) /* 780px */
+{
+    .header__btnMenu{
+        display: none;
+    }
+
+    .header__logo{
+        float: none;
+        display: inline-block;
+    }
+
+    .js .header__logo{
+        float: none;
+    }
+   
+    .header__nav{
+        display: inline-block;
+    }
+
+
+    .header__nav{
+        background: transparent;
+        float: right;
+        margin-top: 4em;
+    }
+    .header__nav ul{
+        margin: 0;
+        padding: 0;
+    }
+    .header__nav li{
+        display: inline-block;
+        border: 0;
+    }
+    .header__nav a{
+        color: #276296;
+        background: white;
+        padding: 0.7em;
+    }
+    .header__nav a:hover{
+        color: #E16D71;
+        background: #b2d1ec;
+    }
+
+    .quemsomos img{
+        height: 3.5em;
+    }
+
+    .quemsomos p{
+        font-size: 0.9em;
+    }
+
+    .quemsomos-col{
+        width: 29%;
+        margin: 2%;
+        float: left;
+    }
+
+    .contato p{
+        font-size: 1.25em;
+    }
+
+    .mailrow-1{
+        width: 98%;
+        margin-right: 2%;
+        float: left;
+    }
+    .mailrow-2{
+        width: 48%;
+        margin-right: 2%;
+        float: left;
+    }
+
+    footer{
+        text-align: right;
+    }
+    .footer-copyright {
+        margin-right: 1em;
+    }
+}
+
+
+  
+  
