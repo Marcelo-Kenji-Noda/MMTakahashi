@@ -1,16 +1,129 @@
+/*Formatação Padrão*/
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
 
-/*Cor principal*/
+h1, h2, h3, p{
+  color: #276296;
+  padding: 0;
+  margin: 0.3em;
+}
+
+p {
+  font-size: 1em;
+}
+
+h1{
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.7em;
+}
+h3 {
+  font-size: 1.4em;
+}
+
+.clearfix:after{
+  content: ' ';
+  display: block;
+  clear: both;
+}
+
+.spanHidden{
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  display: inline-block;
+}
+
+.hidden{
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  display: block;
+}
+
+
+/*Header*/
+
+.header{
+  background: snow;
+  background-color: rgb(248, 98, 98); 
+  width: 100%;
+}
+
+.header__logo{
+  text-align: center;
+  margin: 0px;
+  padding: 0.31em;
+  display: block;
+}
+
+.js .header__logo{
+  float: left;
+}
+
+.header__logo{
+  width: 16em;
+}
+
+/*Nav*/
+
+.header__nav{
+  clear:left;
+}
+
+.header__nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav li{
+  list-style-type: none;
+  background: #276296;
+  text-align: center;    
+  border-bottom: 1px dotted rgba(255,255,255,0.2);
+}
+.header__nav a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FEE2C0;
+  font-size: 0.75em;
+  font-weight: 600;
+  display: block;
+  padding: 1.56em 0;
+  transition: 0.3s ease;
+}
+.header__nav a:hover{
+  color: #E16D71;
+}
+
 /*Página principal*/
-/*Wrapper*/
-/*Texto Empregos no Japão*/
-/*Container do botão*/
+
+.apresentacao{
+  text-align: center;
+  padding: 0px;
+}
+
+.apresentacao__image{
+  width:auto;
+  height:30em;
+  background-image: url(../Images/background-image-mountain.jpg);
+  background-size:cover;
+  background-attachment:scroll;
+  background-repeat:no-repeat;
+}
+
+/*Texto Empregos no Japsão*/
 /*Fim página principal*/
 /*Segunda Página*/
-/*Título da página de serviços*/
 /*Fim da segunda página*/
-/*Container da área de contato*/
-/*Container da página de contato na main*/
-  /*Página de contato*/
+/*Página de contato*/
 
   
   

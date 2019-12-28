@@ -27,36 +27,33 @@
         <script src="script/script.js"></script>
 
         <!--Início Barra de navegação-->
-        <nav>
-            <button data-toggle="collapse" data-target="#collapse_target">
-            <span></span>
-            </button>
-
-            <div id="collapse_target">
-            <a href="index.html"><img src="Images/MMTLOGO.png" style="width:123.75px;height:92.75px;" alt="logo" ></a>
-            <ul>
-            <li><a href="index.html">PÁGINA INICIAL</a></li>
-            <!--<li class="nav-item nav-item-font"><a href="NossaEmpresa.html" class= "nav-link">NOSSA EMPRESA</a></li>
-            <li class="nav-item nav-item-font"><a href="Contato.html" class= "nav-link">CONTATO</a></li> -->
-            </ul>
-            </div>
-        </nav>
-        <!--Fim da Barra de Navegação-->
-        <!--Página principal-->
         <div>
-            <div>
+            <header class="header clearfix">
+                <a href="index.html"><img src="Images/MMTLOGO.png" alt="logo" class="header__logo"></a>
+                <button style="display: none;" class="header__btnMenu"><i class="fas fa-bars fa-2x"></i><span class="hidden">Menu</span></button>
+                <nav class="header__nav">
+                    <ul>
+                        <li><a href="#">PÁGINA INICIAL</a></li>
+                        <li><a href="#">NOSSOS SERVIÇOS</a></li>
+                        <li><a href="#">CONTATO</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <!--Fim da Barra de Navegação-->
+
+        <!--Página principal-->
+        <section class="apresentacao">
+            <div class="apresentacao__image">
                 <div><h1>EMPREGOS NO JAPÃO</h1></div>
+                <div><!--<img src="Images/background-image-mountain.jpg">--></div>
                 <p>
                     Confiança e compreensão mútua<br>(Trust and mutual understanding)
                 </p>
-            <div>
-                <a href="#sobrenos"><b
-                    utton type="button"><span>ENTRE EM CONTATO</span></b
-                    utton></a>
             </div>
-            </div>
-        </div>
+        </section>
         <!-- Fim da Página principal-->
+
         <!--Sobre nós-->
         <div>
             <h2>SOBRE NÓS</h2>
@@ -67,21 +64,18 @@
                 <div>
                     <div>
                     <div><h3>MISSÃO</h3></div>
-                    <!--<img class="image-item-box" src="Images/flor.png" alt="flor">-->
                     <p>
                         Contribuir para a sociedade do Vale do Paraíba servindo de ponte entre Brasil e Japão
                     </p>
                     </div>
                     <div>
-                    <div><h3 class="title-item-box title-font">VISÃO</h3></div>
-                    <!--<img class="image-item-box" src="Images/flor.png" alt="flor">-->
+                    <div><h3>VISÃO</h3></div>
                     <p>
                         Utilização de know-how adquirido no Japão para ser referência no atendimento aos clientes.
                     </p>
                     </div>
                     <div>
-                    <div><h3 class="title-item-box title-font">VALORES</h3></div>
-                    <!--<img class="image-item-box" src="Images/flor.png" alt="flor">-->
+                    <div><h3>VALORES</h3></div>
                     <p>
                         Transparência no atendimento e confiança dos clientes
                     </p>
@@ -92,18 +86,18 @@
                 <h2>NOSSOS SERVIÇOS</h2>
                 <div>
                     <div>
-                    <h2>Vagas</h2>
+                    <h3>Vagas</h3>
                     <p>Setores de alimentação, eletrônicos e autopeças</p>
                     </div>
                     <div>
-                    <h2>Direcionamento</h2>
+                    <h3>Direcionamento</h3>
                     <p>Todas as regiões do Japão, dependendo das suas características e necessidades</p>
                     </div>
                 </div> 
             </div>         
-            <!--<img class="main-image" src="Images/bonsai.png" alt="bonsai">-->
         </div> 
         <!--Fim do Sobre nós-->
+
         <!--Contato-->
         <div>
             <h2>ENTRE EM CONTATO</h2>
@@ -136,13 +130,17 @@
             </div>
         </div>
         <!--Fim do Contato-->
+
         <!--Início do footer-->
+        <footer>
         <div>
             <div>
                 <p>E-mail:kenchiku@hotmail.com</p>
                 <p>Telefone:(12)98279-7099</p>
             </div>
         </div>
-        <!--Fim do footer-->           
+        </footer>
+        <!--Fim do footer-->
+
     </body>
 </html>
