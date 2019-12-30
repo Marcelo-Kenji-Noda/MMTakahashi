@@ -5,8 +5,8 @@ body{
 }
 
 h1, h2, h3, p{
-  font-family: "Impact", "Bebas Neue Regular", "Arial", sans-serif;
-  color: #ff3939;
+  font-family: "PoppinsExtraLight", "Poppins", "Arial", sans-serif;
+  color: #252525;
   padding: 0;
   margin: 0.3em;
 }
@@ -24,6 +24,10 @@ h2 {
 }
 h3 {
   font-size: 1.4em;
+}
+
+.destaque{
+  color: rgb(255, 73, 73);
 }
 
 .clearfix:after{
@@ -52,15 +56,14 @@ h3 {
 /*Header*/
 
 .header{
-  background: snow;
-  background-color: rgb(248, 98, 98); 
+  background-color:snow; 
   width: 100%;
 }
 
 .header__logo{
   text-align: center;
   margin: 0px;
-  padding: 0.31em;
+  padding: 0.5em 0 0 0.5em;
   display: block;
 }
 
@@ -69,7 +72,7 @@ h3 {
 }
 
 .header__logo{
-  width: 10em;
+  width: 5em;
 }
 
 .js .header__btnMenu{
@@ -93,24 +96,27 @@ h3 {
 
 .header__nav li{
   list-style-type: none;
-  background: #276296;
+  background: rgb(255, 73, 73);
   text-align: center;    
-  border-bottom: 1px dotted rgba(255,255,255,0.2);
+  border-bottom: 1px dotted rgba(255, 255, 255, 1);
 }
 .header__nav a{
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  color: #FEE2C0;
+  color: rgb(255, 255, 255);
   font-size: 0.75em;
   font-weight: 600;
   display: block;
   padding: 1.56em 0;
   transition: 0.3s ease;
+  font-family: "Poppins", "Impact","Arial", sans-serif;
 }
 .header__nav a:hover{
-  color: #E16D71;
+  background-color: rgb(255, 53, 53);
+  color: white;
 }
+
 
 /*Página principal*/
 
@@ -121,27 +127,51 @@ h3 {
 
 .apresentacao__image{
   width:auto;
-  height:25em;
-  background-image: url(../Images/background-image-mountain2.jpg);
+  height:21em;
+  background-image: url(../Images/background-image-mountain3.jpg);
   background-size:cover;
   background-attachment:scroll;
   background-repeat:no-repeat;
-  align-content: center;
+  background-position: center;
+
 }
 
 .apresentacao__image h1{
-  padding: 2em 0 0 0;
+  font-family: "Bebas Neue Regular", "Impact", "Arial", sans-serif;
+  font-size: 3.6em;
+  padding: 1.0em 0 0 0.3em;
+  color: white;
+  margin: 0;
+  text-align: left;
+  text-shadow: 4px 3px 8px rgb(99, 99, 99);
 }
 
 /*Quem somos*/
+.sobrenos{
+  /*background-image: url(../Images/FLOR.jpg);*/
+}
+
 .sobrenos img{
-  padding-right: 1em;
-  height: 4.5em;
-  float: left;
+  padding-left: 1em;
+  margin: 0px;
+  height: 21em;
+  float: right;
+}
+
+.sobrenos p{
+  height: 15em;
+  /*max-width: 10em;*/
+  font-size: 1em;
+  float: right;
+  padding: 2em 0 0 2em;
 }
 
 .quemsomos {
   padding: 1em;
+}
+
+.cards__spacing{
+  padding: 2em;
 }
 
 .quemsomos article{
@@ -150,15 +180,66 @@ h3 {
   text-align: justify;
 }
 .quemsomos img{
-  padding-right: 1em;
-  height: 4.5em;
+  padding: 1em 1em;
+  height: 14.3em;
   float: left;
+}
+
+.cards{
+  padding: 1.3em;
+  border-radius: 10%;
+  box-shadow:4px 3px 8px rgb(99, 99, 99);;
+}
+
+.background-image-nossosservicos{
+ background-image: url(../Images/Japão.png);
+}
+
+.NossosServicos__text{
+  padding: 2em;
+  background-color: rgb(255, 73, 73);
+  border-radius: 0% 10% 10% 0%;
+}
+
+.NossosServicos__text p{
+  color: white;
+}
+
+.NossosServicos__text h3{
+  color: white;
+}
+
+.wrapper__contato{
+  background-color: rgb(41, 41, 41);
 }
 
 .contato{
   text-align: center;
+  padding: 1em 0;
+}
+
+.contato h2{
+  font-family: "Bebas Neue Regular", "Impact", "Arial", sans-serif;
+  color: white;
+  padding: 1.5em 0em 0em;
+  font-size: 5em;
+}
+
+.contato label{
+  color: white;
+  font-size: 1em;
+  font-family: "Poppins", "Arial", sans-serif;
+  padding: 0 0.5em;
+}
+
+.contato input{
   padding: 1em;
 }
+
+.input__wrapper{
+  padding: 0.5em;
+}
+
 
 .nome{
   display: inline-block;
@@ -190,18 +271,20 @@ h3 {
 }
 
 .mailbutton{
-  background: #276296;
-  color: #FEE2C0;
-  border-radius: 0.625em;
-  padding: 1em 0 1em 0;
+  background: rgb(255, 73, 73);
+  color: white;
+  padding: 0.2em 0 0.2em 0;
   width: 100%; 
   transition: 0.3s ease;
+  font-family: "Bebas Neue Regular", "Impact", "Arial", sans-serif;
+  font-size: 2.5em;
+  border: none;
 }
 
 .mailbutton:hover{
-  color: #E16D71;
-  background: #276296de;    
+  background: rgb(255, 55, 55);   
   cursor: pointer;
+  border: none;
 }
 
 footer{

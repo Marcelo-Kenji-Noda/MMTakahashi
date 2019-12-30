@@ -9,6 +9,7 @@
         <meta name="keywords" content="representações, empregos, Japão">
         
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <!--Bootstrap-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <!-- Fonts -->
         <link href='https://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
@@ -29,12 +30,12 @@
         <!--Início Barra de navegação-->
         <div>
             <header class="header clearfix">
-                <a href="index.html"><img src="Images/MMTLOGO.png" alt="logo" class="header__logo"></a>
+                <a href="index.html"><img src="Images/logo.png" alt="logo" class="header__logo"></a>
                 <button style="display: none;" class="header__btnMenu"><i class="fas fa-bars fa-2x"></i><span class="hidden">Menu</span></button>
                 <nav class="header__nav">
                     <ul>
                         <li><a href="#">PÁGINA INICIAL</a></li>
-                        <li><a href="#">NOSSOS SERVIÇOS</a></li>
+                        <li><a href="#nossosServicos">NOSSOS SERVIÇOS</a></li>
                         <li><a href="#">CONTATO</a></li>
                     </ul>
                 </nav>
@@ -45,64 +46,119 @@
         <!--Página principal-->
         <section class="apresentacao">
             <div class="apresentacao__image">
-                <h1>EMPREGOS NO JAPÃO</h1>
-                <p>
-                  <span class="texto1">Confiança e compreensão mútua<br>(Trust and mutual understanding)</span>
-                </p>
+                <h1>EMPREGOS<br>NO JAPÃO</h1>
             </div>
         </section>
         <!-- Fim da Página principal-->
 
         <!--Sobre nós-->
             <a name="QuemSomos"></a>
-            <section class="sobrenos clearfix">
-                <h2>Sobre Nós</h2>
-                <img src="Images/flor.png" alt="Quem somos">
-                <p> Fundada em 2019, a empresa MMT é representante das principais empreiteiras do Japão. Oferece atendimento personalizado, em vários segmentos e em todas as regiões do Japão. </p>
+            <section class="sobrenos clearfix row">
+                <div class="col">
+                    <p>
+                    A <span class="destaque">MMT</span> é representante das principais empreiteiras do <span class="destaque">Japão.</span> Oferece atendimento personalizado, em vários segmentos e em todas as regiões do Japão 
+                    </p>
+                </div>
+                <div class="col">
+                    <img src="Images/sakura-2686483_1280.png" alt="Quem somos">
+                </div>
+
             </section>
-            <section class="quemsomos clearfix">                
-                <article class="quemsomos-col">
-                    <h3>Missão</h3>
-                    <img src="Images/flor.png" alt="Nossa missão">
-                    <p>Contribuir para a sociedade do Vale do Paraíba servindo de ponte entre Brasil e Japão</p>
+
+            <section class="quemsomos clearfix">             
+                <article class="quemsomos-col cards__spacing">
+                        <div class="row cards">
+                        <div class="col">
+                            <img src="Images/missão.png" alt="Nossa missão">
+                        </div>
+                        <div class="col">
+                            <h3>Missão</h3>
+                            <p>Contribuir para a sociedade do Vale do Paraíba servindo de ponte entre Brasil e Japão</p>
+                        </div>
+                    </div>
                 </article>
-                <article class="quemsomos-col">
-                    <h3>Visão</h3>
-                    <img src="Images/flor.png" alt="Nossa visão">
-                    <p>Utilização de know-how adquirido no Japão para ser referência no atendimento aos clientes.</p>
+                <article class="quemsomos-col cards__spacing">
+                    <div class="row cards">
+                        <div class="col">
+                            <img src="Images/visão.png" alt="Nossa visão">
+                        </div>
+                        <div class="col">
+                            <h3>Visão</h3>
+                            <p>Utilização de know-how adquirido no Japão para ser referência no atendimento aos clientes.</p>
+                        </div>
+                    </div>
                 </article>
-                <article class="quemsomos-col">
-                    <h3>Valores</h3>       
-                    <img src="Images/flor.png" alt="Nossos valores">
-                    <p>Transparência no atendimento e confiança dos clientes</p>
+                <article class="quemsomos-col cards__spacing">
+                    <div class="row cards">
+                        <div class="col">
+                            <img src="Images/valores.png" alt="Nossos valores">
+                        </div>
+                        <div class="col">
+                            <h3>Valores</h3> 
+                            <p>Transparência no atendimento e confiança dos clientes</p>
+                        </div>
+                    </div>
                 </article>
             </section>
-            <a name="NossosServicos"></a>
-            <h2>Nossos Serviços</h2>
-            <section class="quemsomos clearfix">                
-                <article class="quemsomos-col">
-                    <h3>Vagas</h3>
-                    <img src="Images/flor.png" alt="Nossa missão">
-                    <p>Setores de alimentação, eletrônicos e autopeças</p>
-                </article>
-                <article class="quemsomos-col">
-                    <h3>Direcionamento</h3>
-                    <img src="Images/flor.png" alt="Nossa visão">
-                    <p>Todas as regiões do Japão, dependendo das suas características e necessidades</p>
-                </article>
-            </section>     
+            <div class="background-image-nossosservicos">
+                <a name="NossosServicos"></a>
+                <section class="quemsomos clearfix" id="nossosServicos">             
+                    <article class="quemsomos-col">
+                        <div class="NossosServicos__text">
+                            <h3>Vagas</h3>
+                            <p>Setores de alimentação, eletrônicos e autopeças</p>
+                        </div>
+                    </article>
+                    <article class="quemsomos-col">
+                        <div class="NossosServicos__text">
+                            <h3>Direcionamento</h3>
+                            <p>Todas as regiões do Japão, dependendo das suas características e necessidades</p>
+                        </div>
+                    </article>
+                </section>
+            </div>     
         <!--Fim do Sobre nós-->
 
         <!--Contato-->
         <a name="Contato"></a>
             <section  class="contato clearfix">
-                <div>
+                <div class="wrapper__contato">
                     <h2>Contato</h2>
-                    <p>Maiores informações entre em contato com:</p>
-                    <span class="nome"><p><strong>MILTON MINORU</strong></p></span>
-                    <span class="nome"><p><span class="nome">
-                        <i class="fas fa-mobile-alt"><span class='spanHidden'>Fone</span>
-                            <strong>&nbsp;(12)98279-7099</strong>
+                    <div class="divemail clearfix">
+                        <form id="form-email" method="post" onsubmit='submitDetailsForm()'>
+                        <!--<form id="form-email" target="_blank" action="https://jumprock.co/mail/skrepouso" method="post">                            -->
+                            <div class="mailrow-2">
+                                <label for="nome">Nome</label>
+                                <div class="input__wrapper">
+                                    <input placeholder="Nome Completo" type="text" name="name" id="Nome" maxlength="100" class="form-control form-control-lg" required>
+                                </div>
+                            </div>
+                            <div class="mailrow-2">
+                                <label for="email">Email</label>
+                                <div class="input__wrapper">
+                                    <input placeholder="e-mail" type="email" name="email" id="e-mail" maxlength="200" class="form-control form-control-lg">
+                                </div>
+                            </div>
+                            <div class="mailrow-1">
+                                <label for="mensagem">Digite sua mensagem</label>
+                                <div class="input__wrapper">
+                                    <textarea placeholder="Mensagem" name="message" id="mensagem" class="form-control form-control-lg"></textarea>
+                                </div>
+                            </div>
+                            <div class="mailrow-1 ">
+                                <div class="input__wrapper">
+                                    <input type="submit" value="Enviar" class="mailbutton">
+                                </div>
+                            </div>
+                        </form>
+                    </div>      
+            </section>
+            <footer>
+                <p>Maiores informações entre em contato com:</p>
+                <span class="nome"><p><strong>MILTON MINORU</strong></p></span>
+                <span class="nome"><p><span class="nome">
+                    <i class="fas fa-mobile-alt"><span class='spanHidden'>Fone</span>
+                        <strong>&nbsp;(12)98279-7099</strong>
                         </i>
                     </p></span>
                     <br>
@@ -119,29 +175,8 @@
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.4119214126777!2d-45.8864128492463!3d-23.228092884775027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4aeac4372087%3A0x435bc42f51ce5cea!2sAv.%20Andr%C3%B4meda%2C%201799%20-%20Jardim%20Sat%C3%A9lite%2C%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos%20-%20SP%2C%2012230-000!5e0!3m2!1spt-BR!2sbr!4v1577548499061!5m2!1spt-BR!2sbr" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                     </div>
                     <h3>Email</h3>
-                    <div class="divemail clearfix">
-                        <form id="form-email" method="post" onsubmit='submitDetailsForm()'>
-                        <!--<form id="form-email" target="_blank" action="https://jumprock.co/mail/skrepouso" method="post">                            -->
-                            <div class="mailrow-2">
-                                <label for="nome">Nome</label>
-                                <input placeholder="nome completo" type="text" name="name" id="Nome" maxlength="100" required>
-                            </div>
-                            <div class="mailrow-2">
-                                <label for="email">Email</label>
-                                <input placeholder="email" type="email" name="email" id="e-mail" maxlength="200">
-                            </div>
-                            <div class="mailrow-1">
-                                <label for="mensagem">Digite sua mensagem</label>
-                                <textarea placeholder="mensagem" name="message" id="mensagem"></textarea>
-                            </div>
-                            <div class="mailrow-1">
-                                <input type="submit" value="Enviar" class="mailbutton">
-                            </div>
-                        </form>
                     </div>
-                </div>       
-            </section>
-            <footer>
+                </div> 
                 <ul class="footer-ul-icons">
                     <li><span class="hidden">Whatsapp</span><i class="fab fa-whatsapp"><span style="font-size:0.725em;">&nbsp;(12)99660-4845 / 98185-6104</span></i></li>
                     <li><a href="#"><span class="hidden">Twitter</span><i class="fab fa-twitter"></i></a></li>
@@ -174,7 +209,7 @@
             function submitDetailsForm()
             {
                 $.ajax({
-                        url: 'https://jumprock.co/mail/skrepouso',
+                        url: 'https://script.google.com/macros/s/AKfycbwhKCBSLVVZdyRjNnSnJf1WIvgqZWONEQrMGzXO/exec',
                         type: 'POST',
                         dataType: 'json',
                         async: false,
