@@ -53,14 +53,14 @@
 
         <!--Sobre nós-->
             <a name="QuemSomos"></a>
-            <section class="sobrenos clearfix row">
-                <div class="col">
+            <section class="sobrenos clearfix row" style="padding: 0;">
+                <div class="col-12">
                     <p>
                     A <span class="destaque">MMT</span> é representante das principais empreiteiras do <span class="destaque">Japão.</span> Oferece atendimento personalizado, em vários segmentos e em todas as regiões do Japão 
                     </p>
                 </div>
-                <div class="col">
-                    <img src="Images/sakura-2686483_1280.png" alt="Quem somos">
+                <!--<div class="col">-->
+                    <!--<img src="Images/sakura-2686483_1280.png" alt="Quem somos">-->
                 </div>
 
             </section>
@@ -102,15 +102,17 @@
             </section>
             <div class="background-image-nossosservicos">
                 <a name="NossosServicos"></a>
-                <section class="quemsomos clearfix" id="nossosServicos">             
-                    <article class="quemsomos-col">
-                        <div class="NossosServicos__text">
+                <section class="quemsomos clearfix row" style="padding: 0%; margin: 0;" id="nossosServicos">
+                    <article class="quemsomos-col col-5" style="padding-left: 0;">
+                        <div class="NossosServicos__text1">
                             <h3>Vagas</h3>
                             <p>Setores de alimentação, eletrônicos e autopeças</p>
                         </div>
                     </article>
-                    <article class="quemsomos-col">
-                        <div class="NossosServicos__text">
+                    <div class="col-7"></div>
+                    <div class="col-5"></div>
+                    <article class="quemsomos-col col-7" style="padding-right: 0;">
+                        <div class="NossosServicos__text2">
                             <h3>Direcionamento</h3>
                             <p>Todas as regiões do Japão, dependendo das suas características e necessidades</p>
                         </div>
@@ -127,25 +129,25 @@
                     <div class="divemail clearfix">
                         <form id="form-email" method="post" onsubmit='submitDetailsForm()'>
                         <!--<form id="form-email" target="_blank" action="https://jumprock.co/mail/skrepouso" method="post">                            -->
-                            <div class="mailrow-2">
+                            <div class="mailrow-2 input__format">
                                 <label for="nome">Nome</label>
                                 <div class="input__wrapper">
                                     <input placeholder="Nome Completo" type="text" name="name" id="Nome" maxlength="100" class="form-control form-control-lg" required>
                                 </div>
                             </div>
-                            <div class="mailrow-2">
+                            <div class="mailrow-2 input__format">
                                 <label for="email">Email</label>
                                 <div class="input__wrapper">
                                     <input placeholder="e-mail" type="email" name="email" id="e-mail" maxlength="200" class="form-control form-control-lg">
                                 </div>
                             </div>
-                            <div class="mailrow-1">
+                            <div class="mailrow-1 input__format">
                                 <label for="mensagem">Digite sua mensagem</label>
                                 <div class="input__wrapper">
                                     <textarea placeholder="Mensagem" name="message" id="mensagem" class="form-control form-control-lg"></textarea>
                                 </div>
                             </div>
-                            <div class="mailrow-1 ">
+                            <div class="mailrow-1 input__format">
                                 <div class="input__wrapper">
                                     <input type="submit" value="Enviar" class="mailbutton">
                                 </div>
@@ -155,18 +157,20 @@
             </section>
             <footer>
                 <p>Maiores informações entre em contato com:</p>
-                <span class="nome"><p><strong>MILTON MINORU</strong></p></span>
-                <span class="nome"><p><span class="nome">
-                    <i class="fas fa-mobile-alt"><span class='spanHidden'>Fone</span>
-                        <strong>&nbsp;(12)98279-7099</strong>
-                        </i>
-                    </p></span>
+                <span class="nome">
+                    <p><strong>MILTON MINORU</strong></p>
+                </span>
+                <span class="nome">
+                    <p>
+                    <i class="fas fa-mobile-alt"><span class='spanHidden'>Fone</span></i>
+                        &nbsp;<span class="footer__font">(12)98279-7099</span> 
+                    </p>
+                </span>
                     <br>
                     <span class="nome"><p><span class="nome">
                         <a href="mailto:kenchiku@hotmail.com">
-                            <i class="fas fa-envelope-square"><span class='spanHidden'>Email:</span>
-                                <strong>&nbsp;kenchiku@hotmail.com</strong>                            
-                            </i>
+                            <i class="fas fa-envelope-square"><span class='spanHidden'>Email:</span></i>
+                                &nbsp;<span class="footer__font">kenchiku@hotmail.com</span>                   
                         </a>
                     </p></span>
                     <br>
@@ -174,16 +178,14 @@
                     <div class="maps">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.4119214126777!2d-45.8864128492463!3d-23.228092884775027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4aeac4372087%3A0x435bc42f51ce5cea!2sAv.%20Andr%C3%B4meda%2C%201799%20-%20Jardim%20Sat%C3%A9lite%2C%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos%20-%20SP%2C%2012230-000!5e0!3m2!1spt-BR!2sbr!4v1577548499061!5m2!1spt-BR!2sbr" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                     </div>
-                    <h3>Email</h3>
                     </div>
                 </div> 
                 <ul class="footer-ul-icons">
-                    <li><span class="hidden">Whatsapp</span><i class="fab fa-whatsapp"><span style="font-size:0.725em;">&nbsp;(12)99660-4845 / 98185-6104</span></i></li>
-                    <li><a href="#"><span class="hidden">Twitter</span><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="https://www.http://facebook.com/MMTOffice" target="_blank"><span class="hidden">Facebook</span><i class="fab fa-facebook-square"></i></a></li>
+                    <li><span class="hidden">Whatsapp</span><i class="fab fa-whatsapp"><span style="font-size:0.725em; font-family: 'Poppins', 'Arial', sans serif;">&nbsp;(12)98279-7099</span></i></li>
+                    <li><a href="https://facebook.com/MMTOffice" target="_blank"><span class="hidden">Facebook</span><i class="fab fa-facebook-square"></i></a></li>
                 </ul>
                 <ul class="footer-copyright">
-                    <li>Copyright &copy; 2019 - Design: <a href="http://www.jknoda.com.br">JKNoda</a></li>
+                    <li>Copyright &copy; 2019 - Design: KenjiNoda e JKNoda</li>
                 </ul>
             </footer>
         <!--Fim do footer-->
