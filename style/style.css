@@ -151,6 +151,7 @@ h3 {
   /*background-image: url(../Images/FLOR.jpg);*/
 }
 
+
 .sobrenos img{
   padding-left: 1em;
   margin: 0px;
@@ -162,8 +163,7 @@ h3 {
   height: 15em;
   /*max-width: 10em;*/
   font-size: 1em;
-  float: right;
-  padding: 2em 0 0 2em;
+  padding: 1.5em;
 }
 
 .quemsomos {
