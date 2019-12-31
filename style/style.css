@@ -155,12 +155,12 @@ h3 {
 .sobrenos img{
   padding-left: 1em;
   margin: 0px;
-  height: 21em;
+  /*height: 2em;*/
   float: right;
 }
 
 .sobrenos p{
-  height: 15em;
+  /*height: 8em;*/
   /*max-width: 10em;*/
   font-size: 1em;
   padding: 1.5em;
