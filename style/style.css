@@ -87,6 +87,10 @@ h3 {
 
 .header__nav{
   clear:left;
+  position: absolute;
+  top: 5em;
+  right: 0;
+  
 }
 
 .header__nav ul{
@@ -96,8 +100,8 @@ h3 {
 
 .header__nav li{
   list-style-type: none;
-  background: rgb(255, 73, 73);
-  text-align: center;    
+  background: rgb(255, 73, 73, 80%);
+  text-align: center;  
   border-bottom: 1px dotted rgba(255, 255, 255, 1);
 }
 .header__nav a{
@@ -108,7 +112,7 @@ h3 {
   font-size: 0.75em;
   font-weight: 600;
   display: block;
-  padding: 1.56em 0;
+  padding: 1.56em 2em;
   transition: 0.3s ease;
   font-family: "Poppins", "Impact","Arial", sans-serif;
 }
@@ -200,14 +204,14 @@ h3 {
 
 .NossosServicos__text1{
   padding: 2em;
-  background-color: rgb(255, 73, 73);
+  background-color: rgb(255, 73, 73, 90%);
   border-radius: 0% 10% 10% 0%;
   box-shadow:4px 3px 8px rgb(99, 99, 99);;
 }
 
 .NossosServicos__text2{
   padding: 2em;
-  background-color: rgb(255, 73, 73);
+  background-color: rgb(255, 73, 73, 90%);
   border-radius: 10% 0% 0% 10%;
   box-shadow:-4px 3px 8px rgb(99, 99, 99);;
 }
