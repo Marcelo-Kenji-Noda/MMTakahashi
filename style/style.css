@@ -87,9 +87,8 @@ h3 {
 
 .header__nav{
   clear:left;
-  position: absolute;
   top: 5em;
-  right: 0;
+  width: auto;
   
 }
 
@@ -113,7 +112,8 @@ h3 {
   font-weight: 600;
   display: block;
   padding: 1.56em 2em;
-  transition: 0.3s ease;
+  transition: 0.5s ease;
+  width: auto;
   font-family: "Poppins", "Impact","Arial", sans-serif;
 }
 .header__nav a:hover{
@@ -364,6 +364,8 @@ footer a:hover{
     .header__logo{
         float: none;
         display: inline-block;
+        width: 9em;
+        padding-left: 1em;
     }
 
     .js .header__logo{
@@ -372,13 +374,14 @@ footer a:hover{
    
     .header__nav{
         display: inline-block;
+        float: right;
     }
 
 
     .header__nav{
         background: transparent;
         float: right;
-        margin-top: 4em;
+        margin: 3em 2em 0 0;
     }
     .header__nav ul{
         margin: 0;
@@ -389,26 +392,55 @@ footer a:hover{
         border: 0;
     }
     .header__nav a{
-        color: #276296;
+        font-size: 1em ;
+        font-family: "Poppins", "Arial", "sans-serif";
+        color: rgb(255, 53, 53);
         background: white;
-        padding: 0.7em;
+        padding: 1em;
     }
     .header__nav a:hover{
-        color: #E16D71;
-        background: #b2d1ec;
+        font-family: "Poppins", "Arial", "sans-serif";
+        color: snow;
+        background: rgb(255, 53, 53);
+    }
+
+    .apresentacao{
+      text-align: center;
+      padding: 0px;
+    }
+    
+    .apresentacao__image{
+      width:auto;
+      height:35em;
+      background-image: url(../Images/background-image-mountain3.jpg);
+      background-size:cover;
+      background-attachment:scroll;
+      background-repeat:no-repeat;
+      background-position: center;
+    
+    }
+    
+    .apresentacao__image h1{
+      font-family: "Bebas Neue Regular", "Impact", "Arial", sans-serif;
+      font-size: 7em;
+      padding: 1.0em 0 0 1em;
+      color: white;
+      margin: 0;
+      text-align: left;
+      text-shadow: 4px 3px 8px rgb(99, 99, 99);
     }
 
     .quemsomos img{
-        height: 3.5em;
+        height: 11em;
     }
 
     .quemsomos p{
-        font-size: 0.9em;
+        font-size: 1em;
+        text-align: center;
     }
 
     .quemsomos-col{
         width: 29%;
-        margin: 2%;
         float: left;
     }
 
@@ -428,11 +460,14 @@ footer a:hover{
     }
 
     footer{
-        text-align: right;
+        text-align: center;
+        margin: auto;
     }
     .footer-copyright {
         margin-right: 1em;
     }
+
+
 }
 
 
