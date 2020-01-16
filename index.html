@@ -1,196 +1,122 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-    <head>
-        <title> MMT Serviços</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">  
-        <meta name="author" content="Kenji">
-        <meta name="description" content="Confiança e compreensão mútua (Trust and mutual understanding)">
-        <meta name="keywords" content="representações, empregos, Japão">
-        
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-        <!--Bootstrap-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <!-- Fonts -->
-        <link href='https://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="style/normalize.css">
-        <link rel="stylesheet" href="style/style.css">
-
-    </head>
-
-    <body>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <script src="script/script.js"></script>
-
-        <!--Início Barra de navegação-->
-        <div>
-            <header class="header clearfix">
-                <a href="index.html"><img src="Images/logo.png" alt="logo" class="header__logo"></a>
-                <button style="display: none;" class="header__btnMenu"><i class="fas fa-bars fa-2x"></i><span class="hidden">Menu</span></button>
-                <nav class="header__nav">
-                    <ul>
-                        <!--<li><a href="#">PÁGINA INICIAL</a></li>-->
-                        <li><a href="#nossosServicos">NOSSOS SERVIÇOS</a></li>
-                        <li><a href="#contato">CONTATO</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
-        <!--Fim da Barra de Navegação-->
-
-        <!--Página principal-->
-        <section class="apresentacao">
-            <div class="apresentacao__image">
-                <h1>EMPREGOS<br>NO JAPÃO</h1>
-            </div>
-        </section>
-        <!-- Fim da Página principal-->
-
-        <!--Sobre nós-->
-            <a name="QuemSomos"></a>
-            <section class="sobrenos clearfix row" style="padding: 0; margin: 0;">
-                <div class="col-12">
-                    <p class="sobrenos__maintext">
-                    A <span class="destaque">MMT</span> é representante das principais empreiteiras do <span class="destaque">Japão.</span> Oferece atendimento personalizado, em vários segmentos e em todas as regiões do Japão 
-                    </p>
-                </div>
-                <!--<div class="col">-->
-                    <!--<img src="Images/sakura-2686483_1280.png" alt="Quem somos">-->
-                </div>
-
-            </section>
-
-            <section class="quemsomos clearfix">             
-                <article class="quemsomos-col cards__spacing">
-                        <div class="row cards">
-                        <div class="col">
-                            <img src="Images/missão.png" alt="Nossa missão">
-                        </div>
-                        <div class="col">
-                            <h3>Missão</h3>
-                            <p>Contribuir para a sociedade do Vale do Paraíba servindo de ponte entre Brasil e Japão</p>
-                        </div>
-                    </div>
-                </article>
-                <article class="quemsomos-col cards__spacing">
-                    <div class="row cards">
-                        <div class="col">
-                            <img src="Images/visão.png" alt="Nossa visão">
-                        </div>
-                        <div class="col">
-                            <h3>Visão</h3>
-                            <p>Utilização de know-how adquirido no Japão para ser referência no atendimento aos clientes.</p>
-                        </div>
-                    </div>
-                </article>
-                <article class="quemsomos-col cards__spacing">
-                    <div class="row cards">
-                        <div class="col">
-                            <img src="Images/valores.png" alt="Nossos valores">
-                        </div>
-                        <div class="col">
-                            <h3>Valores</h3> 
-                            <p>Transparência no atendimento e confiança dos clientes</p>
-                        </div>
-                    </div>
-                </article>
-            </section>
-            <div class="background-image-nossosservicos">
-                <a name="NossosServicos"></a>
-                <section class="quemsomos clearfix row" style="padding: 0%; margin: 0;" id="nossosServicos">
-                    <article class="quemsomos-col col-5" style="padding-left: 0;">
-                        <div class="NossosServicos__text1">
-                            <h3>Vagas</h3>
-                            <p>Setores de alimentação, eletrônicos e autopeças</p>
-                        </div>
-                    </article>
-                    <div class="col-7"></div>
-                    <div class="col-5"></div>
-                    <article class="quemsomos-col col-7" style="padding-right: 0;">
-                        <div class="NossosServicos__text2">
-                            <h3>Direcionamento</h3>
-                            <p>Todas as regiões do Japão, dependendo das suas características e necessidades</p>
-                        </div>
-                    </article>
-                </section>
-            </div>     
-        <!--Fim do Sobre nós-->
-
-        <!--Contato-->
-        <a name="Contato"></a>
-            <section  class="contato clearfix" id="contato">
-                <div class="wrapper__contato">
-                    <h2>Contato</h2>
-                    <div class="divemail clearfix">
-                        <form id="form-email" method="post" onsubmit='submitDetailsForm()'>
-                        <!--<form id="form-email" target="_blank" action="https://jumprock.co/mail/skrepouso" method="post">                            -->
-                            <div class="mailrow-2 input__format">
-                                <label for="nome">Nome</label>
-                                <div class="input__wrapper">
-                                    <input placeholder="Nome Completo" type="text" name="name" id="Nome" maxlength="100" class="form-control form-control-lg" required>
-                                </div>
-                            </div>
-                            <div class="mailrow-2 input__format">
-                                <label for="email">Email</label>
-                                <div class="input__wrapper">
-                                    <input placeholder="e-mail" type="email" name="email" id="e-mail" maxlength="200" class="form-control form-control-lg">
-                                </div>
-                            </div>
-                            <div class="mailrow-1 input__format">
-                                <label for="mensagem">Digite sua mensagem</label>
-                                <div class="input__wrapper">
-                                    <textarea placeholder="Mensagem" name="message" id="mensagem" class="form-control form-control-lg"></textarea>
-                                </div>
-                            </div>
-                            <div class="mailrow-1 input__format">
-                                <div class="input__wrapper">
-                                    <input type="submit" value="Enviar" class="mailbutton">
-                                </div>
-                            </div>
-                        </form>
-                    </div>      
-            </section>
-            <footer>
-                <p>Maiores informações entre em contato com:</p>
-                <span class="nome">
-                    <p><strong>MILTON MINORU</strong></p>
-                </span>
-                <span class="nome">
-                    <p>
-                    <i class="fas fa-mobile-alt"><span class='spanHidden'>Fone</span></i>
-                        &nbsp;<span class="footer__font">(12)98279-7099</span> 
-                    </p>
-                </span>
-                    <br>
-                    <span class="nome"><p><span class="nome">
-                        <a href="mailto:kenchiku@hotmail.com">
-                            <i class="fas fa-envelope-square"><span class='spanHidden'>Email:</span></i>
-                                &nbsp;<span class="footer__font">kenchiku@hotmail.com</span>                   
-                        </a>
-                    </p></span>
-                    <br>
-                    <h3>Localização</h3>
-                    <div class="maps">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.4119214126777!2d-45.8864128492463!3d-23.228092884775027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4aeac4372087%3A0x435bc42f51ce5cea!2sAv.%20Andr%C3%B4meda%2C%201799%20-%20Jardim%20Sat%C3%A9lite%2C%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos%20-%20SP%2C%2012230-000!5e0!3m2!1spt-BR!2sbr!4v1577548499061!5m2!1spt-BR!2sbr" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                    </div>
-                    </div>
-                </div> 
-                <ul class="footer-ul-icons">
-                    <li><span class="hidden">Whatsapp</span><i class="fab fa-whatsapp"><span style="font-size:0.725em; font-family: 'Poppins', 'Arial', sans serif;">&nbsp;(12)98279-7099</span></i></li>
-                    <li><a href="https://facebook.com/MMTOffice" target="_blank"><span class="hidden">Facebook</span><i class="fab fa-facebook-square"></i></a></li>
-                </ul>
-                <ul class="footer-copyright">
-                    <li>Copyright &copy; 2019 - Design: KenjiNoda e JKNoda</li>
-                </ul>
-            </footer>
-        <!--Fim do footer-->
-
-        <script type="text/javascript" src="script/jquery-3.3.1.min.js"></script>
+  <head>
+    <title> MMT Serviços</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">  
+		<meta name="author" content="Kenji">
+		<meta name="description" content="Confiança e compreensão mútua (Trust and mutual understanding)">
+		<meta name="keywords" content="representações, empregos, Japão">
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		<!--Bootstrap-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<!-- Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="style/normalize.css">
+		<link rel="stylesheet" href="style/style.css">
+		<link rel="stylesheet" href="style/stylekimono.css">
+  </head>
+  <body>
+	<div class="jumbotron container">
+		<h1 class="display-4">MMT Serviços</h1>
+		<p class="lead">A MMT é uma empresa...</p>
+		<hr class="my-4">
+		<p>Fundada em 2019, a empresa MMT é representante das principais empreiteiras do Japão. Oferece atendimento personalizado, em vários segmentos e em todas as regiões do Japão. </p>
+	  </div>
+	<div class="jumbotron container">
+		<h1 class="display-4">Empregos no Japão</h1>
+		<p class="lead">Procurando empregos no Japão? Venha conhecer nossos serviços!</p>
+		<p class="lead">
+		  <a class="btn btn-primary btn-lg btn__kimonos" href="empregosnojapao.html" role="button">Visite a página</a>
+		</p>
+	  </div>
+	  <div class="jumbotron container">
+		<h1 class="display-4">Kimonos Kusakura</h1>
+		<p class="lead">Nossa Loja de kimonos Kusakura!</p>
+		<p class="lead">
+		  <a class="btn btn-primary btn-lg btn__kimonos" href="kimonos.html" role="button">Visite a página</a>
+		</p>
+	  </div>
+	  <!--Contato-->
+		<a name="Contato"></a>
+		<section  class="contato clearfix" id="contato">
+			<div class="wrapper__contato">
+				<h2>Contato</h2>
+				<div class="divemail clearfix">
+					<form id="form-email" method="post" onsubmit='submitDetailsForm()'>
+					<!--<form id="form-email" target="_blank" action="https://jumprock.co/mail/skrepouso" method="post">                            -->
+						<div class="mailrow-2 input__format">
+							<label for="nome">Nome</label>
+							<div class="input__wrapper">
+								<input placeholder="Nome Completo" type="text" name="name" id="Nome" maxlength="100" class="form-control form-control-lg" required>
+							</div>
+						</div>
+						<div class="mailrow-2 input__format">
+							<label for="email">Email</label>
+							<div class="input__wrapper">
+								<input placeholder="e-mail" type="email" name="email" id="e-mail" maxlength="200" class="form-control form-control-lg">
+							</div>
+						</div>
+						<div class="mailrow-1 input__format">
+							<label for="mensagem">Digite sua mensagem</label>
+							<div class="input__wrapper">
+								<textarea placeholder="Mensagem" name="message" id="mensagem" class="form-control form-control-lg"></textarea>
+							</div>
+						</div>
+						<div class="mailrow-1 input__format">
+							<div class="input__wrapper">
+								<input type="submit" value="Enviar" class="mailbutton">
+							</div>
+						</div>
+					</form>
+				</div>      
+		</section>
+		<footer>
+			<p>Maiores informações entre em contato com:</p>
+			<span class="nome">
+				<p><strong>MILTON MINORU</strong></p>
+			</span>
+			<span class="nome">
+				<p>
+				<i class="fas fa-mobile-alt"><span class='spanHidden'>Fone</span></i>
+					&nbsp;<span class="footer__font">(12)98279-7099</span> 
+				</p>
+			</span>
+				<br>
+				<span class="nome"><p><span class="nome">
+					<a href="mailto:kenchiku@hotmail.com">
+						<i class="fas fa-envelope-square"><span class='spanHidden'>Email:</span></i>
+							&nbsp;<span class="footer__font">kenchiku@hotmail.com</span>                   
+					</a>
+				</p></span>
+				<br>
+				<h3>Localização</h3>
+				<div class="maps">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.4119214126777!2d-45.8864128492463!3d-23.228092884775027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4aeac4372087%3A0x435bc42f51ce5cea!2sAv.%20Andr%C3%B4meda%2C%201799%20-%20Jardim%20Sat%C3%A9lite%2C%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos%20-%20SP%2C%2012230-000!5e0!3m2!1spt-BR!2sbr!4v1577548499061!5m2!1spt-BR!2sbr" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				</div>
+				</div>
+			</div> 
+			<ul class="footer-ul-icons">
+				<li><span class="hidden">Whatsapp</span><i class="fab fa-whatsapp"><span style="font-size:0.725em; font-family: 'Poppins', 'Arial', sans serif;">&nbsp;(12)98279-7099</span></i></li>
+				<li><a href="https://facebook.com/MMTOffice" target="_blank"><span class="hidden">Facebook</span><i class="fab fa-facebook-square"></i></a></li>
+			</ul>
+			<ul class="footer-copyright">
+				<li>Copyright &copy; 2019 - Design: KenjiNoda e JKNoda</li>
+			</ul>
+		</footer>
+	<!--Fim do footer-->
+    	<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script src="script/script.js"></script>
+		<script type="text/javascript" src="script/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="script/menu.js"></script>
+		
+		<script type="text/javascript" src="script/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="script/menu.js"></script>
 
         <script type="text/javascript">
@@ -207,23 +133,6 @@
                 })
                 
             })()
-
-            function submitDetailsForm()
-            {
-                $.ajax({
-                        url: 'https://script.google.com/macros/s/AKfycbwhKCBSLVVZdyRjNnSnJf1WIvgqZWONEQrMGzXO/exec',
-                        type: 'POST',
-                        dataType: 'json',
-                        async: false,
-                        data: $('#form-email').serialize(),
-                        success: function(data){
-                            alert('Email enviado com sucesso!');
-                        },
-                        error: function(data){
-                            alert('Falha ao enviar email, por favor utilize outro meio para enviar o email!');
-                        }
-                    });
-            }
         </script>
-    </body>
+  </body>
 </html>

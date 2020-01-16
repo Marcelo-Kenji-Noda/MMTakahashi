@@ -421,6 +421,9 @@ footer a:hover{
       text-shadow: 4px 3px 8px rgb(99, 99, 99);
     }
 
+    .quemsomos{
+      padding: 0 1em;
+    }
     .quemsomos img{
         height: 11em;
     }
@@ -433,6 +436,7 @@ footer a:hover{
     .quemsomos-col{
         width: 29%;
         float: left;
+        
     }
 
     .contato p{

@@ -1,0 +1,32 @@
+.jumbotron h1, h2, h3{
+    font-family: "Bebas Neue Regular", "Poppins", "Arial", sans-serif;
+    color: #252525;;
+    padding: 0;
+    margin: 0;
+}
+
+.jumbotron p{
+    font-family: "Poppins", "Arial", "sans-serif";
+}
+.jumbotron{
+    background-color: snow;
+}
+.btn__kimonos{
+    margin: 1em 0;
+}
+
+.button_mmt{
+    margin: 1em 0;
+}
+
+.btn-primary{
+    background-color: rgb(255, 109, 109);
+    border: 0px;
+}
+
+.btn-primary:hover{
+    background-color: rgb(255, 55, 55);
+}
+@media screen and (min-width: 48.75em) {
+
+}
