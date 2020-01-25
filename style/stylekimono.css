@@ -26,6 +26,15 @@
 
 .btn-primary:hover{
     background-color: rgb(255, 55, 55);
+    border-color: none;
+}
+
+.lead{
+    color: black;
+}
+
+.link__especial{
+    color: black;
 }
 @media screen and (min-width: 48.75em) {
 
